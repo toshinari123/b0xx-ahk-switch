@@ -21,4 +21,4 @@ follow instructions in https://github.com/Almtr/joycontrol-pluginloader#pairing-
 (boxx.py is a joycontrol plugin)
 # layout
 
-![image](https://discord.com/channels/@me/1108176577759559690/1118922383244394636)
+![image](https://cdn.discordapp.com/attachments/1108176577759559690/1118922382975963136/Untitled.png)
