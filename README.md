@@ -19,4 +19,6 @@ sudo pip3 install hid==1.0.4
 ```
 follow instructions in https://github.com/Almtr/joycontrol-pluginloader#pairing-the-pro-controller-of-joycontrol and https://github.com/Almtr/joycontrol-pluginloader#usage
 (boxx.py is a joycontrol plugin)
-# WIP, boxx.py not finished
+# layout
+
+![image](https://discord.com/channels/@me/1108176577759559690/1118922383244394636)
