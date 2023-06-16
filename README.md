@@ -9,7 +9,7 @@ git clone --recursive https://github.com/Almtr/joycontrol-pluginloader.git
 paste in these lines into `joycontrol-pluginloader/joycontrolPlugin/commands.py`
 ```python
 async def stick2(self, stick, axis, value):
-        await self.cli.cmd_stick(stick, axis, value * MAX_STICK_POWER + MAX_STICK_POWER)
+        await self.cli.cmd_stick(stick, axis, int(value * MAX_STICK_POWER + MAX_STICK_POWER))
 ```
 save and type in terminal:
 ```
