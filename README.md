@@ -1,5 +1,5 @@
 # b0xx-joycontrol (not tested)
-b0xx keyboard controls connecting to nintendo switch with bluetooth using joycontrol (need to use a virtual machine if on windows, I used vmware and https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/20.04/release/)
+b0xx keyboard controls connecting to nintendo switch with bluetooth using joycontrol (need to use a virtual machine if on windows, I used ~~vmware~~ DONT use vmware and https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/20.04/release/)
 ```
 sudo apt install git pip python3-dbus libhidapi-hidraw0
 git clone https://github.com/mart1nro/joycontrol.git
@@ -22,3 +22,20 @@ follow instructions in https://github.com/Almtr/joycontrol-pluginloader#pairing-
 # layout
 
 ![image](https://cdn.discordapp.com/attachments/1108176577759559690/1118922382975963136/Untitled.png)
+
+# connection problems
+i couldnt connect, will try again some other time (it just doesnt show up in change grip / order menu)
+
+maybe helpful links:
+https://github.com/lowlevel-1989/joytransfer
+lowlevel-1989/joytransfer
+https://github.com/Poohl/joycontrol/issues/4
+Cursed Bluetooth Hardware · Issue #4 · Poohl/joycontrol
+https://github.com/mart1nro/joycontrol/issues/8
+Incompatibility with bluetooth "input" plugin · Issue #8 · mart1nro/joycontrol
+https://github.com/Poohl/joycontrol/issues/24
+detected too many SDP-records. Switch might refuse connection. · Issue #24 · Poohl/joycontrol
+https://github.com/Poohl/joycontrol
+Poohl/joycontrol: Emulate Nintendo Switch Controllers over Bluetooth
+https://github.com/mart1nro/joycontrol/issues/115
+not quite sure what the issue is but i'll leave the error code here (running ubuntu 20.04 under windows WSL service) · Issue #115 · mart1nro/joycontrol
