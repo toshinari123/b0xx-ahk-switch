@@ -39,3 +39,6 @@ https://github.com/Poohl/joycontrol
 Poohl/joycontrol: Emulate Nintendo Switch Controllers over Bluetooth
 https://github.com/mart1nro/joycontrol/issues/115
 not quite sure what the issue is but i'll leave the error code here (running ubuntu 20.04 under windows WSL service) · Issue #115 · mart1nro/joycontrol
+
+
+in vbox the `sudo hciconfig hci0 up` showed no such file or directory the problem can be seen in `dmesg | grep tooth` had to do this https://forums.linuxmint.com/viewtopic.php?t=377733 also link the config.bin
