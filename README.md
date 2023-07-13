@@ -1,8 +1,10 @@
 # b0xx-joycontrol (not tested)
 b0xx keyboard controls connecting to nintendo switch with bluetooth using joycontrol (need to use a virtual machine if on windows, I used ~~vmware~~ DONT use vmware use vbox instead; disk used: https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/20.04/release/)
+
+update: use the poohl fork of joycontrol!!
 ```
 sudo apt install git pip python3-dbus libhidapi-hidraw0
-git clone https://github.com/mart1nro/joycontrol.git
+git clone https://github.com/Poohl/joycontrol
 sudo pip3 install joycontrol/
 git clone --recursive https://github.com/Almtr/joycontrol-pluginloader.git
 ```
